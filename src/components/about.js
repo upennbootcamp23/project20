@@ -1,8 +1,8 @@
 import React from 'react';
 import ProfilePic from '../assets/images/profilepic.PNG';
-import RowanLogo from '../assets/images/berkeley.png';
-import CCCLogo from '../assets/images/pittsburgh.png';
-import CHHSELogo from '../assets/images/carleton.png';
+import RowanLogo from '../assets/images/rowan.png';
+import CCCLogo from '../assets/images/camdencc.png';
+import CHHSELogo from '../assets/images/cheast.jpg';
 import '../App.css';
 
 const About = () => {
@@ -22,9 +22,17 @@ const About = () => {
                             <div className='card-body'>
                                 <div className="row">
                                     <p className='p-about'>
-                                        Software Engineer with a demonstrated history of working on production web and mobile applications. Deep
-                                        understanding and technical expertise in Computer Science fundamentals, Javascript, ReactJS, Redux, VueJS, Vuex, NodeJS, MongoDB, CSS,
-                                        HTML and other technologies.
+                                    Hi, my name is Alexander Egerev. I live in Pennsylvania, about 30 minutes from Philadelphia. 
+                                    Ever since I was a child, I always liked working with computers. 
+                                    When I was 13 years old, I first started coding. My favorite programming languages are:
+                                    <ul>
+                                    <li> HTML</li>
+                                    <li> CSS</li>
+                                    <li> JavaScript</li>
+                                    <li> Java</li>
+                                    <li> C++</li>
+                                    </ul>
+                                    Aside from coding, I like to play chess, travel, and draw.
                                     </p>
                                 </div>
                             </div>
@@ -37,30 +45,29 @@ const About = () => {
 
                                 <div className='grid-container-profile'>
                                     <div className='grid-item'>
-                                        <div className='title-uni'>University Of California, Berkeley</div>
-                                        <div className='title-concentration'>Full Stack Web Development</div>
+                                        <div className='university'>Rowan University, Glassboro, NJ</div>
+                                        <div className='concentration'>B.A. in Computing and Informatics (with an emphasis on mobile development </div>
                                     </div>
 
                                     <div className='grid-item'>
-                                        <a href='https://www.berkeley.edu/' target='_blank'><img className='university-logo' src={BerkeleyLogo} /></a>
+                                        <a href='https://www.rowan.edu/' target='_blank'><img className='logo' src={RowanLogo} /></a>
                                     </div>
 
                                     <div className="grid-item">
-                                        <div className='title-uni'>University Of Pittsburgh</div>
-                                        <div className='title-concentration'>Master of Science in Medical Product Engineering</div>
+                                        <div className='university'>Camden County College, Blackwood, NJ</div>
+                                        <div className='concentration'>Associate in Applied Science - Computer Information Systems</div>
                                     </div>
 
                                     <div className="grid-item">
-                                        <a href='https://www.pitt.edu/' target='_blank'><img className='university-logo' src={PittsburghLogo} /></a>
+                                        <a href='https://www.camdencc.edu/' target='_blank'><img className='logo' src={CCCLogo} /></a>
                                     </div>
 
                                     <div className="grid-item">
-                                        <div className='title-uni'>Carleton University</div>
-                                        <div className='title-concentration'>Bachelor of Electrical and Biomedical Engineering</div>
+                                        <div className='school'>Cherry Hill High School East</div>
                                     </div>
 
                                     <div className="grid-item">
-                                        <a href='https://carleton.ca/' target='_blank'><img className='university-logo' src={CarletonLogo} /></a>
+                                        <a href='https://www.chclc.org/east' target='_blank'><img className='university-logo' src={CHHSELogo} /></a>
                                     </div>
                                 </div>
                             </div>
