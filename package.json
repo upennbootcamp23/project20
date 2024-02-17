@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "protflo",
   "private": true,
+  "homepage": "https://upennbootcamp23.github.io/project20",
   "dependencies": {
     "abab": "^2.0.6",
     "accepts": "^1.3.8",
