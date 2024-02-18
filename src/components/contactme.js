@@ -7,7 +7,7 @@ import ContactForm from '../components/contact-form';
 import { FaGithub, FaPreply, FaEnvelope } from "react-icons/fa";
 import '../App.css';
 
-function Contact() {
+function ContactMe() {
   return (
     <div className='container'>
         <Jumbotron fluid className="p-5 mb-0">
@@ -64,4 +64,4 @@ function Contact() {
   )
 }
 
-export default Contact;
+export default ContactMe;
