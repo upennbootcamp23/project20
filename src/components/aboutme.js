@@ -5,7 +5,7 @@ import CCCLogo from '../assets/images/camdencc.png';
 import CHHSELogo from '../assets/images/cheast.jpg';
 import '../App.css';
 
-const About = () => {
+let AboutMe = () => {
     return (
         <React.Fragment>
             <div className='container'>
@@ -15,13 +15,13 @@ const About = () => {
 
                             <div className='card-body'>
                                 <div className="row abstract-back ">
-                                    <img className='avatar' src={ProfilePic} />
+                                    <img className='profilepic' src={ProfilePic} />
                                 </div>
                             </div>
 
                             <div className='card-body'>
                                 <div className="row">
-                                    <p className='p-about'>
+                                    <p className='p-aboutme'>
                                     Hi, my name is Alexander Egerev. I live in Pennsylvania, about 30 minutes from Philadelphia. 
                                     Ever since I was a child, I always liked working with computers. 
                                     When I was 13 years old, I first started coding. My favorite programming languages are:
@@ -79,4 +79,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutMe;
