@@ -14,7 +14,7 @@ import Navigation from '../components/navbar';
 function Header() {
     return (
         <Router>
-            <NavBar/>
+            <Navigation/>
             <Switch>
                 <Route exact path="/">
                     <Redirect to="/about" />
