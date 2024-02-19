@@ -125,6 +125,9 @@ const MyResume = () => {
                                         <p className='p-about'>HTML</p>
                                     </div>
 
+                                    <div className='grid-item-skills'>
+                                        <p className='p-about'>HTML</p>
+                                    </div>
                                 </div>
                             </div>
 
