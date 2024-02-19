@@ -1,0 +1,359 @@
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .card {
+    font-weight: 400;
+    box-shadow: 0 2px 5px 0 #F5B338, 0 2px 10px 0 #F5B338;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid #99cf15;
+    border-radius: 0.25rem;
+  }
+  
+  .header {
+    padding-top: 1rem;
+    padding-left: 40px;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 200px;
+    height: 45px;
+    font-family: 'Arial Narrow', Arial;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #F7E03B;
+    background-color: green;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(153, 207, 21);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .card-body {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding-top: 1rem;
+  }
+  
+  .footer {
+    background-color: #2FC0EB;
+    padding-top: 1rem;
+  }
+  
+  .modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid #FB4241;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+    margin-bottom: 0.25rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    padding-top: 1rem
+  }
+  
+  .img-fluid {
+    background-repeat: no-repeat;
+    background-image: url("https://chromewebstore.google.com/detail/one-piece-wallpaper/gljflbhhgnlnjmpnpmholbnnlfcegbjh?pli=1");
+    background-size: cover;
+  }
+  
+  .jumbotron {
+    background-color: #D70000;
+    border-radius: .125rem;
+    box-shadow: 0 2px 5px 0 rgba(98, 195, 248), 0 2px 10px 0 rgba(46, 98, 163);
+  }
+  
+  .fab {
+    color: greenyellow;
+  }
+  
+  .fa-github {
+    padding-left: 0.40em;
+  }
+  
+  .fa-envelope {
+    padding-left: 0.40em;
+    color: #E5296B;
+  }
+  
+  .row-input {
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #F7E03B;
+    background-color: #143;
+    background-clip: padding-box;
+    border: 1px solid #00AB4E;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .img-skills {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .grid-container-skills {
+    display: grid;
+    align-items: left;
+    justify-items: left;
+    grid-template-columns: repeat(auto-fill, 170px);
+    grid-template-rows: repeat(auto-fill, 100px);
+  }
+  
+  .grid-item-skills {
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .portfolio-grid-item {
+    text-align: left;
+  }
+  
+  .grid-container-profile {
+    display: grid;
+    align-items: left;
+    justify-items: left;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(3, 100px);
+    margin: 1.5%;
+  }
+  
+  .portfolio-grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  
+  }
+  
+  .university-logo {
+    float: right;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .App {
+    font-family: sans-serif;
+  }
+  
+  .topnav {
+    overflow: auto;
+    padding: 0 20px;
+    min-height: 9vh;
+    background: red;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #1A8549;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .topnav-left {
+    float: left;
+    padding: 14px 16px;
+    font-size: 25px;
+  }
+  
+  .topnav-right {
+    float: right;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: aquamarine;
+  }
+  
+  .topnav a:hover {
+    background-color: #ec2020;
+    color: red;
+    list-style: none;
+  }
+  
+  .navbar__link--active {
+    background-color: #FFCD00;
+    color: yellow;
+    list-style: none;
+  }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .p-about {
+    font-family: Times;
+    font-size: 20px;
+  }
+  
+  .title {
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .title-job {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .title-company {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .title-date {
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  .title-uni {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  
+  .title-concentration {
+    font-family: Arial;
+    font-size: 15px;
+  }
+  
+  li {
+    font-family: Arial;
+  }
+  
+  .code {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    display: block;
+    unicode-bidi: embed;
+    white-space: pre-line;
+    padding-bottom: 10px;
+  }
+  
+  .work-exp {
+    margin: 3.7%;
+  }
+  
+  .edu {
+    margin-left: 1.5%;
+  }
+  
+  .company-logo {
+    float: right;
+    height: 70px;
+  }
+  
+  .profilepic {
+    padding-top: 10px;
+    vertical-align: middle;
+    width: 250px;
+    height: 290px;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    padding: 10px;
+  }
+  
+  .abstract-back {
+    background-image: url('assets/images/onepiece.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .btn {
+    background-color: #99cf15;
+    border: 3px solid #00AB4E;
+  }
+  .btn:hover, .btn:active {
+    background-color: #2FC0EB;
+    border: 3px solid #F7E03B;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .grid-container-profile {
+      grid-template-columns: repeat(2, 450px);
+      grid-template-rows: repeat(3, 100px);
+    }
+  
+    .header {
+      padding-top: 1rem;
+      padding-left: 15px;
+    }
+  
+    .modal-footer {
+      margin-left: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .topnav a {
+      float: none;
+      display: block;
+    }
+  
+    .grid-container-profile {
+      grid-template-columns: repeat(2, 330px);
+      grid-template-rows: repeat(3, 100px);
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .profilepic {
+      padding-top: 10px;
+      vertical-align: middle;
+      width: 120px;
+      height: 170px;
+      border-radius: 50%;
+    }
+  
+    .abstract-back {
+      background-image: url('assets/images/abstract.jpg');
+      height: 180px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .grid-container-profile {
+      grid-template-columns: repeat(2, 180px);
+      grid-template-rows: repeat(3, 120px);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1000px !important;
+    }
+  }
